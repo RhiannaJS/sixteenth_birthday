@@ -1,0 +1,24 @@
+.landing {
+    background-size: cover;
+    height: 0vh;
+    color: var(--black);
+    font-weight: bold;
+}
+
+#headerText{
+    text-shadow: 2px 0px var(--blue);
+    /* position: sticky; */
+}
+
+h1{
+    position: relative;
+    /* text-align: center; */
+    /* align-content: center; */
+    padding: 200px 500px 250px 0px;
+}
+
+#birthday{
+    align-content: center;
+    height: 500px;
+   
+}

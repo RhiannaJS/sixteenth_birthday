@@ -1,0 +1,25 @@
+.date {
+    margin: 25px;
+    font-family: var(--font-two);
+    font-weight: bold;
+}
+
+#hRow {
+    width: 100%;
+    margin: 25px 25px 25px 0px;
+    align-content: center;
+}
+
+#paragraph {
+    margin: 5px;
+    padding: 25px;
+    font-family: var(--font-one);
+    font-size: 18px;
+}
+
+/* #collage {
+    work this out later - to fit better on smaller screen
+    maybe a bootstrap scroll container??
+    width: 100%;
+    margin: 50px 250px 50px 0px;
+} */
