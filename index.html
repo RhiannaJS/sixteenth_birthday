@@ -59,8 +59,8 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-light bg-light fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-light fixed-top" id="navbar">
+        <div class="container-fluid" >
             <a class="navbar-brand" href="#">Trhisten James</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
@@ -69,23 +69,34 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active"
+                            id="nav-link"
+                            aria-current="page" href="#firstCarousel">Photos 1</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link active"
+                            id="nav-link"
+                            aria-current="page" href="#secondCarousel">Photos 2</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                            id="nav-link"
+                            aria-current="page" href="#thirdCarousel">Photos 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" 
+                            id="nav-link"
+                            aria-current="page" href="#fourthCarousel">Photos 4</a>
+                        </li>
+                        <li id="message">
+                            Call your mom, she misses you!
                         </li>
                     </ul>
                 </div>
@@ -113,14 +124,16 @@
             </div>
             <hr id="hRow" />
             <div id="paragraph">
-                <p>Today is your day - As I wake up I now have a 16 year old son. If I close my eyes, I can still
+                <p>
+                    Today is your day - As I wake up I now have a 16 year old son. If I close my eyes, I can still
                     remember the moment I found out I was going to be a mom. From that moment my life changed. I
                     remember so vividly moments throughout my pregnancy, down to the day you were born, 30 November
                     2005. We had to be at the hospital at 6AM so they could induce labor. The nurses began all of the
                     preparations for your arrival. As they tried to put an IV in my arm, however, I began to pass out,
                     so they delayed induction until 9AM. At 1:17PM the doctor handed you to me and I found the piece of
                     me I never knew was missing. I had no idea how to be a mom, but I was certain I wanted the job. I
-                    mean, who ele is more blessed than me to have you call me "mom."</p>
+                    mean, who ele is more blessed than me to have you call me "mom."
+                </p>
             </div>
         </section>
     </a>
@@ -188,10 +201,15 @@
                         alt="TJ and Adam playinig Cornhole">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/tjPapawGrandmotherPool.jpg" class="d-block w-100" alt="TJ with Papaw & Grandmother at the pool">
+                    <img src="./assets/tjPapawGrandmotherPool.jpg" class="d-block w-100"
+                        alt="TJ with Papaw & Grandmother at the pool">
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/tjWithMamaw.jpg" class="d-block w-100" alt="TJ with Mamaw">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/tjWithJimsGma.jpg" class="d-block w-100"
+                        alt="TJ with great-grandma on his dads side">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -211,112 +229,348 @@
     <a id="secondParagraph">
         <section>
             <div class="container-fluid" id="paragraph">
-                <p>Over the last 16 years there have been plenty of times I have asked myself, "Can I do this? - Can I
-                    raise him the right way?" I think so far, your dad and I have done pretty well.</p>
+                <p>
+                    Over the last 16 years there have been plenty of times I have asked myself, "Can I do this? - Can I
+                    raise him the right way?" I think so far, your dad and I have done pretty well.
+                </p>
 
-                <p>I need you to know how thankful I am that God chose me to be your mother. You are the best gift I
-                    have been blessed with.</p>
+                <p>
+                    I need you to know how thankful I am that God chose me to be your mother. You are the best gift I
+                    have been blessed with.
+                </p>
 
-                <p>As you move forward through life, I want you to know how proud you make me. Everyday you inspire me
+                <p>
+                    As you move forward through life, I want you to know how proud you make me. Everyday you inspire me
                     to be better and you give me endless hope for the future. You are a handsome, sweet, funny and
-                    loving young man and I couldn't be more proud.</p>
+                    loving young man and I couldn't be more proud.
+                </p>
+            </div>
         </section>
-        </div>
     </a>
 
     <a id="secondCarousel">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...>
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100"
-                        alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100"
-                        alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100"
-                        alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100"
-                        alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100"
-                        alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100"
-                        alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./" class="d-block w-100" alt="...">
-                </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/tjKorbynBraydenLego1.jpg" class="d-block w-100"
+                    alt="Korbyn, TJ & Brayden with Lego R2D2">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+                <img src="./assets/tjKorbynBraydenLaserTag.jpg" class="d-block w-100"
+                    alt="TJ, Brayden & Korbyn at laser tag">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMomBraces.png" class="d-block w-100"
+                    alt="TJ with his Mom the day after he got braces">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjWithDwightFatigues.jpg" class="d-block w-100"
+                    alt="TJ with Uncle Dwight at his 1st birthday party">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMeDwightXmas1.jpg" class="d-block w-100"
+                    alt="TJ with his Mom and Uncle Dwight at Christmas">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMeRickMorty1.jpg" class="d-block w-100"
+                    alt="TJ with his Mom and the Rick and Morty bus">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjOnHeaterVent.jpg" class="d-block w-100" alt="TJ on the vent">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjFunnyFacesWedding.jpg" class="d-block w-100"
+                    alt="TJ with his cousins making funny faces at his dads wedding">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/dwightTjFlorida1.jpg" class="d-block w-100" alt="TJ with Dwight at Sanibelle Island">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/engagementPhoto.jpg" class="d-block w-100" alt="TJ with his Mom, Adam and Harley">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjFreddie.jpg" class="d-block w-100" alt="TJ with his Freddie">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjBraydenGandalf.jpg" class="d-block w-100" alt="TJ & Brayden with Lego Gandalf">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjAward1.jpg" class="d-block w-100" alt="TJ with A honor roll award">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjBikeMohawkHat.jpg" class="d-block w-100" alt="TJ on his bike with mohawk helmet">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/IMAG0920_BURST002_COVER.jpg" class="d-block w-100"
+                    alt="TJ with his Dad at cubscouts">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/IMAG0303.jpg" class="d-block w-100" alt="TJ with a tiny frog at Shades State Park">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjHotDog.jpg" class="d-block w-100"
+                    alt="TJ with a hot dog and apple juice but it looks like beer">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDadsWedding.jpg" class="d-block w-100" alt="TJ with his dad at his dad's wedding">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/firstBdGmotherTrike.jpg" class="d-block w-100"
+                    alt="TJ with his great-grandmother and his dad.">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjWithGrammy.jpg" class="d-block w-100" alt="TJ with Grammy">
+            </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     </a>
 
 
+    <a id="thirdParagraph">
+        <section>
+            <div class="container-fluid" id="paragraph">
+                <p>
+                    Over the last 16 years I've learned so much from you, your fun-loving, silly personality, your deep
+                    oving heart for your family, your determination when you put your mind to something.
+                </p>
 
+                <p>
+                    Everyday I wish I could stop time so I could enjoy you at this specific moment just a little bit
+                    longer. At the rate this is going, its just too fast for me. I want to still hold you like I used to
+                    when you still fit in my arms. I wish for those moments and relive them in my mind. I know that you
+                    are growing up and I have to start letting go, and I know that you are strong and will make a
+                    difference in this world.
+                </p>
 
+                <p>
+                    Yes, I push too hard sometimes and it's not because I want to anger or frustrate you, but it's
+                    because I see so much in you and I want you to see it too. I don't want you to settle for 'ok' I
+                    wnat you to go further and reach all the limits you can.
+                </p>
+            </div>
+        </section>
+    </a>
 
+    <a id="thirdCarousel">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./assets/tjMomPumpkinPatch.jpg" class="d-block w-100"
+                    alt="TJ with his mom at the pumpkin patch">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/tjMomDeerCreek.jpg" class="d-block w-100" alt="TJ with his mom at Deer Creek">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMomIndiansGame.jpg" class="d-block w-100"
+                    alt="TJ with his mom at an Indianas Game">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMomCreek.jpg" class="d-block w-100" alt="TJ and Mom with friends in the car">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMomEaster.jpg" class="d-block w-100" alt="TJ and Mom hunting easter eggs">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDyingEggs.jpg" class="d-block w-100" alt="TJ coloring easter eggs">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjKorbynCoolCar.jpg" class="d-block w-100" alt="TJ and Korbyn with a cool car">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDadHalloween.jpg" class="d-block w-100" alt="TJ and his dad at a Halloween party">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/harryPotterHalloween.jpg" class="d-block w-100"
+                    alt="TJ, Isabella, Nicole and Mom dressed up for Halloween">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMomBeach.jpg" class="d-block w-100" alt="TJ with his mom at the beach">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMomPrankster.jpg" class="d-block w-100" alt="TJ with his mom at a party">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjBrandonDoggiePuppy.jpg" class="d-block w-100"
+                    alt="TJ with Brandon, Doggie and Puppy">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjWithHose.jpg" class="d-block w-100" alt="TJ playing in the hose">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjAtSchool.jpg" class="d-block w-100" alt="TJ with friends at school">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjChinaMan.jpg" class="d-block w-100" alt="TJ with a lid on his head">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDadFloor.jpg" class="d-block w-100" alt="TJ with his dad playinig on the floor">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDadSunGlasses.jpg" class="d-block w-100" alt="TJ with his dads sunglasses on">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDinoRide.jpg" class="d-block w-100" alt="TJ on a ride at the state fair">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMomWeirdAl.jpg" class="d-block w-100" alt="TJ with his mom at a Weird Al Concert">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDawn.jpg" class="d-block w-100" alt="Tj with his Aunt Dawn">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</a>
 
+    <a id="fourthParagraph">
+        <section>
+            <div class="container-fluid" id="paragraph">
+                <p>I wish so much for you.</p>
 
+                <p>
+                    I wish for you to go through life safely and through all roads you travel in your future, know that
+                    the path will always be there to lead you home.
+                </p>
 
+                <p>
+                    I wish for you to make good decisions, and there will be times that you don't, but that is ok, those
+                    are the ties you will learn from. I wish for you grace and strength through those times.
+                </p>
+                <p>
+                    I wish you love - I wish for you to find someone to share your life with and laugh with. There will
+                    be broken hearts but those will make you stronger for when you find "the one".
+                </p>
+                <p>
+                    I wish you laughter - the ability to laugh at yourself, because there will be moments in life that
+                    you simply have to laugh. That builds strength and character.
+                </p>
+                <p>
+                    I wish for you to be a gentleman, to always treat others with respect and kindness.
+                </p>
+                <p>
+                    I wish for you honesty - This will be hard at times but being honest is the only option. Be honest
+                    with yourself and those around you.
+                </p>
+                <p>
+                    I wish for you trust - learn to trust yourself and stand by your ideas and beliefs. Never lose
+                    anothers trust in you, it's one of the hardest things to earn back once you lose it.
+                </p>
+            </div>
+        </section>
+    </a>
 
+    <a id="fourthCarousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/tjHarley.jpg" class="d-block w-100" alt="TJ with Harley">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/meTjFlorida1.jpg" class="d-block w-100" alt="TJ with his mom at the beach">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/meTjVowRenew.jpg" class="d-block w-100" alt="TJ with his mom at a wedding">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/momTjIzPizzaTrain.jpg" class="d-block w-100"
+                    alt="TJ with his mom and Isabella on the Pizza train">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjMomHayride.jpg" class="d-block w-100" alt="TJ with his mom on a hayride">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjNicoleRadioShack.jpg" class="d-block w-100" alt="TJ with Nicole at Radio Shack">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjStovallsXmas.jpg" class="d-block w-100" alt="TJ at the Stovalls at Christmas">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjScooter.jpg" class="d-block w-100" alt="TJ on his Scooter">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjWithDd.jpg" class="d-block w-100" alt="TJ with his Aunt DeeDee">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjPark.jpg" class="d-block w-100" alt="TJ playing at the park">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjSoccer.jpg" class="d-block w-100" alt="TJ">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjWolverine.jpg" class="d-block w-100" alt="TJ in his Wolverine Costume">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjIzGoCarts.jpg" class="d-block w-100" alt="TJ and Isabella racing go-karts">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjIzFrogs.jpg" class="d-block w-100" alt="TJ and Isablla with tiiny frogs">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjKorbynBraydenBday1.jpg" class="d-block w-100"
+                    alt="TJ, Brayden & Korbyn celebrating a birthday">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDadMotorcycle.jpg" class="d-block w-100" alt="TJ with his dad on a motorcycle">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjDadSleepy.jpg" class="d-block w-100" alt="TJ and his dad sleeping">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjCousinsCute.jpg" class="d-block w-100"
+                    alt="TJ with his cousins at his dads wedding">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tj15th.jpg" class="d-block w-100" alt="TJ on his 15th birthday">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/tjBirthdayHats.jpg" class="d-block w-100" alt="TJ with two birthday hats on">
+            </div>
+        </div>
+    </div>
+</a>
 
+    <a id="fourthParagraph">
+        <section>
+            <div class="container-fluid" id="paragraph">
+                <p>
+                    I could go on and on with my wishes for you, but most of all I wish you happiness.  Happiness with yourself, you life, your family and the future.
+                </p>
+                    You are my greatest "work in progress" and my greatest accomplishment.  As I look through photos of the last 16 years, I wipe tears from my eyes - not of sadness but of joy of everything you've done and what the future holds for you.
+                <p>
+                    I love you more than anything in this world. 
+                </p>
 
+                <p>
+                    I decided to put all my words out there so you could always come back to them where ever you are and whenever you need.  
+                </p>
+                <p>
+                    With love always, 
+                        
+                </p>
+                <p>
+                    Mom
+                </p>
+            </div>
+        </section>
+    </a>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

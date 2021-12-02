@@ -1,3 +1,27 @@
 .navbar-brand{
     font-family: var(--font-two);
+    
+}
+
+#navbar {
+    background: #2a6f97;
+}
+
+.offcanvas-header {
+    background: #5390d9;
+}
+
+#message {
+    font-weight: bold;
+    color: #a4133c;
+}
+
+#nav-link {
+    font-family: var(--fone-one);
+    color: var(--blue2);
+    font-weight: bold;
+}
+
+.offcanvas-body {
+    background: #5390d9;
 }

@@ -11,15 +11,47 @@
 }
 
 #paragraph {
-    margin: 5px;
-    padding: 25px;
+    width: 50%;
+    /* width: 75%; */
+    margin: auto;
+    /* margin: 5px 100px 5px 150px; */
+    padding: 10px;
+    /* padding: 25px; */
     font-family: var(--font-one);
     font-size: 18px;
+    /* text-align: center; */
 }
 
-/* #collage {
-    work this out later - to fit better on smaller screen
-    maybe a bootstrap scroll container??
-    width: 100%;
-    margin: 50px 250px 50px 0px;
-} */
+#carouselExampleControls {
+    width: 50%;
+    margin: 5px 400px 5px 400px;
+}
+
+#firstCarousel {
+    box-align: center;
+}
+
+#carouselExampleFade {
+    width: 50%;
+    margin: 5px 400px 5px 400px;
+}
+
+.carousel {
+    margin: 0 auto;
+  }
+
+#carouselExampleInterval {
+    width: 50%;
+    margin: 5px 400px 5px 400px;
+}
+
+#carouselExampleSlidesOnly {
+    width: 50%;
+    margin: 5px 400px 5px 400px;
+}
+
+
+
+body {
+    background: #2a6f97;
+}
